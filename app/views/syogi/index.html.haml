@@ -1,0 +1,25 @@
+%header
+  .header--content
+  %h1.logo
+    = link_to "将棋", root_path
+  .header--search
+  %form
+    %input{type: "text", placeholder:'検索する'} 
+    = button_tag '検索'
+  .lists
+    %ul.lists
+      %li.lists--content
+      = link_to '#' do
+        ログイン
+      %li.lists--content
+      = link_to '#' do
+        新規会員登録
+
+        
+.main
+  %main
+  .main-titile
+    将棋の記事
+  %section
+    
+    
